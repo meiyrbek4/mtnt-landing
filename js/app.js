@@ -90,4 +90,20 @@ if (ScrollTrigger.isTouch !== 1) {
       }
     );
   });
+
+  //   gsap.fromTo(
+  //     ".navigation-container",
+  //     {
+  //       backgroundColor: "none",
+  //     },
+  //     {
+  //       backgroundColor: "#1f3d4d77",
+  //       scrollTrigger: {
+  //         trigger: ".container",
+
+  //         end: "top 50px",
+  //         scrub: true,
+  //       },
+  //     }
+  //   );
 }
